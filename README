@@ -1,0 +1,34 @@
+scripts and config pool for lazyscript Project
+This repository is for openSUSE
+
+description format:
+# @name_enUS '' 
+# @name_zhTW ''
+# @desc_enUS ''
+# @warn_enUS ''
+# @desc_zhTW ''
+# @warn_zhTW ''
+# @category ''
+# @maintaner ''
+# @author ''
+# @license ''
+# @opensuse ''
+# @platform ''
+
+ex:
+# @name_enUS 'english script name.'
+# @name_zhTW '中文script名。'
+# @desc_enUS 'English discription.
+#            Second line.'
+# @warn_enUS 'English warning.'
+# @desc_zhTW '中文script說明
+#             第2行'
+# @warn_zhTW '中文警告'
+# @category 'Custonmize'
+# @maintainer '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+# @author '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+# @opensuse
+# @platform 'i386 amd64'
+
+For more information please check wiki
+http://wiki.github.com/billy3321/lazyscripts_pool_opensuse/script-meta-data-and-category
