@@ -42,11 +42,11 @@ read -p "What do you want to do now? Please enter the number:" ACT
   case $ACT in
    "1")
    choice_branch
-   git pull git://github.com/mrmoneyc/lazyscripts_pool_opensuse.git $BRANCH && push_repo
+   git pull git://github.com/mrmoneyc/lazyscripts_pool_fedora.git $BRANCH && push_repo
    ;;
    "2")
    choice_branch
-   git pull git://github.com/billy3321/lazyscripts_pool_opensuse.git $BRANCH && push_repo
+   git pull git://github.com/billy3321/lazyscripts_pool_fedora.git $BRANCH && push_repo
    ;;
    *)
    echo "Please enter a number."

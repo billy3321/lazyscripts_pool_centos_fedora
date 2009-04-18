@@ -17,7 +17,7 @@
 # @platform 'i386 amd64'
 
 
-zypper -n mplayer
+yum -y install mplayer
 mplayer_cfg_file="/etc/mplayer/mplayer.conf"
 
 # FIXME: This is not very good...

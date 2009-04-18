@@ -16,5 +16,5 @@
 # @opensuse
 # @platform 'i386 amd64'
 
-zypper -n install gweled
+yum -y install gweled
 

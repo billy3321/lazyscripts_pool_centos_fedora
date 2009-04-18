@@ -14,7 +14,7 @@
 # @opensuse
 # @platform 'i386 AMD64'
 
-zypper -n install emesene
+yum -y install emesene
 
 wget http://emesene.org/trac/raw-attachment/wiki/Plugins/LastSaid.py
 

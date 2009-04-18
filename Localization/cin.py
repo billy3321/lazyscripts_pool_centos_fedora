@@ -140,7 +140,7 @@ def user_scope (selected_cin):
 
 
 def main():
-    zypper_cmd = "zypper -n install "
+    yum_cmd = "yum -y install "
     xhost_cmd = "xhost local:%s" % (os.environ['REAL_USER'])
     print xhost_cmd
     os.system(xhost_cmd)
@@ -155,13 +155,13 @@ def main():
     #os.system(apt_cmd + "im-switch")
 
     if selected_cin == 'gcin' or selected_cin == 'scim':
-        os.system(zypper_cmd + selected_cin)
+        os.system(yum_cmd + selected_cin)
 
         if selected_cin == "scim":
-            os.system(zypper_cmd + "scim-qtimm scim-chewing")
+            os.system(yum_cmd + "scim-qtimm scim-chewing")
         elif selected_cin == 'gcin':
             os.system("zypper ar http://download.opensuse.org/repositories/home:/swyear/openSUSE_11.1/ swyear")
-            os.system(zypper_cmd +'gcin-qt3-immodule' )
+            os.system(yum_cmd +'gcin-qt3-immodule' )
             # install noseeing
             # FIXME: 使用者應該可以選擇不要安裝無蝦米
             #os.system( 'scripts/noseeing-inst' )

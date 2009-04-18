@@ -15,6 +15,6 @@
 # @opensuse
 # @platform 'i386 amd64'
 
-zypper -n install inkscape
+yum -y install inkscape
 
 #END
