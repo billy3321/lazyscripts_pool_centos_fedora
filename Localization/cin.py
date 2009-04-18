@@ -16,7 +16,7 @@
 # @author '2007 洪任諭(PCMan) <pcman.tw -AT- gmail.com>'
 # @author '2007 朱昱任 (Yuren Ju) <yurenju -AT- gmail.com>'
 # @license 'GPL'
-# @opensuse
+# @fedora
 # @platform 'i386 amd64'
 # @child 'noseeing-inst'
 

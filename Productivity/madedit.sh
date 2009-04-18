@@ -16,7 +16,7 @@
 # @maintaner '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
 # @author '洪任諭(PCMan) <pcman.tw -AT- gmail.com>'
 # @license 'GPL'
-# @opensuse
+# @fedora
 # @platform 'i386 AMD64'
 
 echo "正在下載並安裝MadEdit..."

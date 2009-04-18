@@ -11,7 +11,7 @@
 # @maintaner '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
 # @author '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
 # @license 'GPL'
-# @opensuse
+# @fedora
 # @platform 'i386 AMD64'
 
 yum -y install emesene

@@ -4,7 +4,7 @@
 # Released under GNU General Public License
 
 # install deb files and automatically install all required dependencies from apt
-# usage: debinstall.py [FILES]
+# usage: rpminstall.py [FILES]
 
 # @hide
 

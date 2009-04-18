@@ -12,7 +12,7 @@
 # @maintaner '王綱民 Kang-Min Wang (Aminzai,阿民) <lagunawang -AT- gmail.com>'
 # @author '王綱民 Kang-Min Wang (Aminzai,阿民) <lagunawang -AT- gmail.com>'
 # @license 'GPL'
-# @opensuse
+# @fedora
 # @platform 'i386 amd64'
 
 yum -y install inkscape
