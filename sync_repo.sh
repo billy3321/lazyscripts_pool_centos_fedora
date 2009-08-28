@@ -35,9 +35,10 @@ fi
 }
 
 echo "Whos repo you want to sync?"
-echo "1. mrmoneyc"
+echo "1. xiangyang17"
 echo "2. billy3321"
 echo "3. aminzai"
+echo "4. mrmoneyc"
 echo "0. others"
 echo "q. cancel"
 echo "Please enter your choice:"
@@ -45,16 +46,20 @@ read -p "What do you want to do now? Please enter the number:" ACT
   case $ACT in
    "1")
    choice_branch
-   git pull git://github.com/mrmoneyc/lazyscripts_pool_fedora.git $BRANCH && push_repo
+   git pull git://github.com/xiangyang17/lazyscripts_pool_centos_fedora.git $BRANCH && push_repo
    ;;
    "2")
    choice_branch
-   git pull git://github.com/billy3321/lazyscripts_pool_fedora.git $BRANCH && push_repo
+   git pull git://github.com/billy3321/lazyscripts_pool_centos_fedorafedora.git $BRANCH && push_repo
    ;;
    "3")
    choice_branch
-   git pull git://github.com/aminzai/lazyscripts_pool_debian_ubuntu.git $BRANCH && push_repo
+   git pull git://github.com/aminzai/lazyscripts_pool_fedora.git $BRANCH && push_repo
    ;;  
+   "4")
+   choice_branch
+   git pull git://github.com/mrmoneyc/lazyscripts_pool_fedora.git $BRANCH && push_repo
+   ;;
    "0")
    read -p "Please enter the git repo:" URL 
    choice_branch
